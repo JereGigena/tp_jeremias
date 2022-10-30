@@ -1,0 +1,222 @@
+body{
+    font-family: sans-serif;
+    background-color: white;
+    height: 100%;
+    margin: auto;
+    font-size: medium;
+    display: block;
+}
+
+*{
+    box-sizing: border-box; /*esto es para que todo se mantega en relacion y no deesborde*/
+}
+
+.hederFlex{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    font-weight: bolder;
+    background-color: rgb(77, 83, 89)    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo .img{
+height: 70px;
+margin-right: 10px;
+}
+.anclasNav{
+    background-color: blue;
+}
+.anclasNav a{
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+    padding-right: 10px;
+    
+}
+
+.tiket{
+    color: rgb(45, 212, 45);
+}
+.conferencia{
+    color: aliceblue;
+}
+
+.box{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 170%;
+    background-repeat: no-repeat;
+    background-image: url("hawaii.jpg");
+    background-position: center;
+    background: linear-gradient(rgba(5, 5, 5, 0.700), rgba(5, 5, 5, 0.700)), url("ba1.jpg");
+}
+
+.Texto{
+    width: 45%;
+    height: 60%;
+    top: 46.5%;
+    left: 50%;
+    position: absolute;
+    color: rgb(255, 254, 254);
+    text-align: right;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.Texto a{
+   padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.boton{
+border-style: ridge;
+border-color: aliceblue;
+border-radius: 0.5rem;
+border-width: 1px;
+}
+
+.boton_verde{
+background-color: darkgreen;
+border-radius: 0.5rem;
+}
+
+                            /*seccion targeta de oradores*/
+
+.TarjetasOradores{
+display:flex;
+flex-direction: column;
+align-items: center;
+top: 190%;
+ position: absolute;
+}
+
+.padreOrador{
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.oradores{
+width:80%;
+display:flex;
+justify-content:space-between;
+}
+
+.tarjetas{
+background-color: white;
+width: 30%;
+border:1px solid rgb(180, 179, 179);
+border-radius: 10px;
+}
+.imagenTargeta{
+width: 100%;
+border-radius: 10px;
+}
+.textoTargeta{
+padding:1rem;
+}
+.Parrafo{
+width:80%;
+}
+.descProgramacion{
+display: flex;
+justify-content: flex-start;
+               
+}
+.JS{
+     background-color: rgb(236, 236, 22);
+    font-size: 1rem;
+    padding: 0.3rem;
+border-radius: 0.5rem;
+     border-width: 1px;
+}
+            
+.R{
+    background-color: rgb(17, 203, 203);
+    color: rgb(255, 255, 255);
+                font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+}
+
+.Neg{
+    background-color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+        border-width: 1px;
+}
+
+.Star{
+     background-color: rgb(203, 17, 17);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+}
+
+                    /*seccion pantalla dividida*/
+
+.bsas{
+    top: 350%;
+    position: absolute;
+    display: flex;
+    height: 70vh;
+    background-color: rgb(59, 59, 59);
+    
+}
+
+.ImagenIzquierda{
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-image: url("../assets/img/ba3.jpg");
+    
+    
+}
+
+.ContenidoDerecha{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(59, 59, 59);
+    color: aliceblue;
+    font-size: 1.08rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+
+.ContenidoDerecha a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 6px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 00.5rem;
+    border-width: 1px;
+    border-spacing: 10rem;
+   
+}
+    
+.colorfooter{
+    background-color: blue;
+    top: 600%;
+    
+}
+
+
+
